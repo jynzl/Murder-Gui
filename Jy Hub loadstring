@@ -30,3 +30,15 @@ notifSound.PlayOnRemove = true
 notifSound:Destroy()
 game.StarterGui:SetCore("SendNotification", {Title = "Game Found", Text = "Da Hood", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay"})
 end
+
+if game.PlaceID == 621129760 then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/jynzl/Murder-Gui/main/Kat'),true))()
+
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1.5
+notifSound.Volume = 0.15
+notifSound.SoundId = "rbxassetid://170765130"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+game.StarterGui:SetCore("SendNotification", {Title = "Game Found", Text = "Kat", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay"})
+end
